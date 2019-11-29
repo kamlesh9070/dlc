@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 1424521021
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: kkmydlc.dlc
+      Dependencies: {}
+    Info_1:
+      Name: kkprimitive.dlc
+      Dependencies: {}

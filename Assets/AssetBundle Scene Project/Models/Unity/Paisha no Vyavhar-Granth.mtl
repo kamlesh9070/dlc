@@ -1,0 +1,82 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 15.10.2019 19:08:08
+
+newmtl Book_02_lambert4SG
+	Ns 30.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.9900 0.7500 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Book_02_lambert2SG
+	Ns 30.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\05 MY 3-D World\Only 3-D Project\Ahinsha Book Rotate\BOOK OBJ File\book_02.jpg
+	map_Kd D:\05 MY 3-D World\Only 3-D Project\Ahinsha Book Rotate\BOOK OBJ File\book_02.jpg
+
+newmtl Book_02_lambert3SG
+	Ns 30.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\05 MY 3-D World\Only 3-D Project\Ahinsha Book Rotate\BOOK OBJ File\backpage.jpg
+	map_Kd D:\05 MY 3-D World\Only 3-D Project\Ahinsha Book Rotate\BOOK OBJ File\backpage.jpg
+
+newmtl Book_02_book_02_book_02_jpg
+	Ns 96.0800
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Book_02_book_01
+	Ns 96.0800
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\05 MY 3-D World\Only 3-D Project\Ahinsha Book Rotate\BOOK OBJ File\book_01.jpg
+	map_Kd D:\05 MY 3-D World\Only 3-D Project\Ahinsha Book Rotate\BOOK OBJ File\book_01.jpg
+
+newmtl Book_02_book_04
+	Ns 96.0800
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\05 MY 3-D World\Only 3-D Project\Ahinsha Book Rotate\BOOK OBJ File\book_03.jpg
+	map_Kd D:\05 MY 3-D World\Only 3-D Project\Ahinsha Book Rotate\BOOK OBJ File\book_03.jpg

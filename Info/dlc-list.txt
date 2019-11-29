@@ -1,0 +1,2 @@
+Unity Demo<url>file:///C:/Users/mbaapp/Documents/Unity%20Project/AppDemo/git%20Proj/New%20folder/DLC/Assets/AssetBundels/mydlc.dlc
+Other Needs<url>file:///C:/Users/mbaapp/Documents/Unity%20Project/AppDemo/git%20Proj/New%20folder/DLC/Assets/AssetBundels/primitive.dlc
