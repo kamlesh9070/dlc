@@ -148,7 +148,7 @@ public class UnityDLC : MonoBehaviour
 
             clone.transform.SetParent(rootDicContainer);
 
-            clone.GetComponent<DLC>().Inti(dlcName[i], dlcUrls[i]);
+            //clone.GetComponent<DLC>().Inti(dlcName[i], dlcUrls[i]);
             clone.SetActive(true);
         }
     }

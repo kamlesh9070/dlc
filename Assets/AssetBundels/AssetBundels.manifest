@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 1424521021
+CRC: 1981057757
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -7,4 +7,10 @@ AssetBundleManifest:
       Dependencies: {}
     Info_1:
       Name: kkprimitive.dlc
+      Dependencies: {}
+    Info_2:
+      Name: ay-nov.dlc
+      Dependencies: {}
+    Info_3:
+      Name: videoplayer.dlc
       Dependencies: {}

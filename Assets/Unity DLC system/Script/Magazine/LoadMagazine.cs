@@ -64,12 +64,16 @@ public class LoadMagazine : MonoBehaviour
             string path = dlcPath + magazineList[i].fileName;
             if (File.Exists(path))
             {
-                var bundleRequest = AssetBundle.LoadFromFileAsync(path);
+                AssetBundle bundle = AssetBundle.LoadFromFile(path);
+                assetBundles.Add(bundle);
+                scensNames.AddRange(bundle.GetAllScenePaths());
+
+                /*var bundleRequest = AssetBundle.LoadFromFileAsync(path);
                 yield return bundleRequest;
 
                 assetBundles.Add(bundleRequest.assetBundle);
 
-                scensNames.AddRange(bundleRequest.assetBundle.GetAllScenePaths());
+                scensNames.AddRange(bundleRequest.assetBundle.GetAllScenePaths());*/
             }
             i++;
             yield return null;
@@ -103,7 +107,7 @@ public class LoadMagazine : MonoBehaviour
 
             clone.transform.SetParent(rootDicContainer);
 
-            clone.GetComponent<MyDLC>().Inti(magazineList[i]);
+            clone.GetComponent<DLC>().Inti(magazineList[i]);
             clone.SetActive(true);
         }
     }

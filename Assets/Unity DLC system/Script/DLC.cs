@@ -20,36 +20,17 @@ public class DLC : MonoBehaviour
 
     string bundalUrl, filePath;
 
-    public void Inti(string dlcName, string dlcUrl)
+    public void Inti(Magazine magazine)
     {
+        string dlcName = magazine.name;
+        string dlcUrl = magazine.url;
         nameText.text = dlcName;
         bundalUrl = dlcUrl;
-        filePath = UnityDLC.dlcPath + Path.GetFileName(dlcUrl);
-        bool downloaded = checkDown(dlcUrl);
+        filePath = LoadMagazine.dlcPath + magazine.fileName;
+        bool downloaded = File.Exists(filePath);
         background.color = downloaded ? downloadedColore : avilavleColor;
         progressbar.value = downloaded ? 1 : 0;
         downloadbutton.gameObject.SetActive(!downloaded);
-    }
-    bool checkDown(string url)
-    {
-        string fileName = UnityDLC.dlcPath;
-        if (url.Contains("drive.google.com/"))
-        {
-            if (url.Contains("1CM8IS34glZ674p-5vqd4l3wZqsLjhhjm"))
-            {
-                fileName = fileName + "mydlc.dlc";
-            }
-            else
-            {
-                fileName = fileName + "primitive.dlc";
-            }
-        }
-        else
-        {
-            fileName = UnityDLC.dlcPath + Path.GetFileName(url);
-        }
-        this.filePath = fileName;
-        return File.Exists(fileName);
     }
     public void Download()
     {
@@ -80,34 +61,21 @@ public class DLC : MonoBehaviour
                 }
             }
         }
-        UnityDLC.main.ShowDLC();
+        LoadMagazine.main.ShowDLC();
     }
     IEnumerator CoDownload()
     {
-        Debug.Log("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ bundalUrl:" + bundalUrl);
         downloadbutton.gameObject.SetActive(false);
         using (WebClient webClient = new WebClient())
         {
             try
             {
-                Debug.Log("bundalUrl:" + bundalUrl);
-                if (bundalUrl.Contains("drive.google.com/"))
-                {
-                    if (bundalUrl.Contains("1CM8IS34glZ674p-5vqd4l3wZqsLjhhjm"))
-                    {
-                        filePath = UnityDLC.dlcPath + "mydlc.dlc";
-                    }
-                    else
-                    {
-                        filePath = UnityDLC.dlcPath + "primitive.dlc";
-                    }
-                }
                 webClient.DownloadFile(bundalUrl, filePath);
 
                 //#if !UNITY_WEBPLAYER
                 //                File.WriteAllBytes(filePath, byt);
                 //#endif
-                UnityDLC.main.ShowDLC();
+                LoadMagazine.main.ShowDLC();
 
             }
             catch (Exception ex)
@@ -145,7 +113,7 @@ public class DLC : MonoBehaviour
         //            File.WriteAllBytes(filePath, www.bytes);
         //#endif
         //        }
-        UnityDLC.main.ShowDLC();
+        LoadMagazine.main.ShowDLC();
     }
 
     // Start is called before the first frame update

@@ -792,12 +792,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d739b1e1d02e824cb55a802180b7d20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dlcstringUrl: file:///C:/Users/mbaapp/Documents/Unity%20Project/AppDemo/git%20Proj/New%20folder/DLC/Info/dlc-list.txt
-  rootDicContainer: {fileID: 1237461188}
-  dlcPrefeb: {fileID: 1530738817}
-  rootContainer: {fileID: 986323513}
-  prefeb: {fileID: 232155716}
-  labelText: {fileID: 1229261310}
+  dlcstringUrl: 
+  rootDicContainer: {fileID: 0}
+  dlcPrefeb: {fileID: 0}
+  rootContainer: {fileID: 0}
+  prefeb: {fileID: 0}
+  labelText: {fileID: 0}
 --- !u!4 &289245631
 Transform:
   m_ObjectHideFlags: 0
@@ -1299,7 +1299,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &568362378
 Transform:
   m_ObjectHideFlags: 0
@@ -2516,6 +2516,7 @@ GameObject:
   - component: {fileID: 1237461188}
   - component: {fileID: 1237461189}
   - component: {fileID: 1237461190}
+  - component: {fileID: 1237461191}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -2540,7 +2541,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 500}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1237461189
 MonoBehaviour:
@@ -2580,7 +2581,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
-  m_VerticalFit: 2
+  m_VerticalFit: 0
+--- !u!114 &1237461191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237461187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: 1
+  m_FlexibleHeight: 1
+  m_LayoutPriority: 1
 --- !u!1 &1242561620
 GameObject:
   m_ObjectHideFlags: 0
@@ -2830,7 +2851,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1530738814
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2840,7 +2861,7 @@ RectTransform:
   m_GameObject: {fileID: 1530738813}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children:
   - {fileID: 609384299}
   - {fileID: 326965873}
@@ -2852,7 +2873,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 107.36, y: -45.365}
+  m_AnchoredPosition: {x: 107.36, y: -47.2}
   m_SizeDelta: {x: 214.72, y: 90.73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1530738815
@@ -2910,8 +2931,8 @@ MonoBehaviour:
   nameText: {fileID: 326965874}
   progressbar: {fileID: 1917444949}
   downloadbutton: {fileID: 177218709}
-  avilavleColor: {r: 0.15585253, g: 0.754717, b: 0.1459594, a: 0.9098039}
-  downloadedColore: {r: 0.48718405, g: 0.23921569, b: 0.8679245, a: 0.95686275}
+  avilavleColor: {r: 0.14640439, g: 0.22962545, b: 0.8867924, a: 1}
+  downloadedColore: {r: 0.453682, g: 0.8207547, b: 0.06581525, a: 1}
 --- !u!114 &1530738818
 MonoBehaviour:
   m_ObjectHideFlags: 0

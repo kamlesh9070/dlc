@@ -1,0 +1,64 @@
+ManifestFileVersion: 0
+CRC: 3259938945
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2c37d6176ea130a293978ffc02fe83b0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9b934574eb4de211a1ddaf3e5ce6b84e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+- Class: 114
+  Script: {fileID: -1770992566, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+- Class: 114
+  Script: {fileID: -1826476478, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c47f92041efbb4b429a4eafca855ebe3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f5018c41925ba56479b9bdeb9f542cd9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b4899c39a74940342a31cbff86339344, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 328
+  Script: {instanceID: 0}
+- Class: 329
+  Script: {instanceID: 0}
+Assets:
+- Assets/Scenes/ARScene.unity
+Dependencies: []
